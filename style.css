@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(64, 160, 58);
+  align-items: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2% 15%;
+}
+header div {
+  width: 40%;
+}
+header div ul {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  color: white;
+}
+
+.section1 {
+  display: flex;
+  background: rgb(64, 160, 58);
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 15%;
+  text-shadow: 2px 2px 2px #000000;
+}
+.section1 div h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding-bottom: 15px;
+  color: white;
+  letter-spacing: 5px;
+}
+.section1 div h2 {
+  font-family: "Koh Santepheap", serif;
+  font-size: 2rem;
+  padding-bottom: 15px;
+  color: white;
+}
+.section1 div p {
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  padding-bottom: 25px;
+  color: white;
+}
+.section1 div button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  padding: 2% 5%;
+  border: none;
+  border-radius: 5px;
+}
+
+.textos {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.textos div {
+  text-align: center;
+  padding: 2% 0;
+}
+.textos h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding-bottom: 5%;
+  letter-spacing: 10px;
+}
+.textos h2 {
+  font-family: "Koh Santepheap", serif;
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+.textos p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+.imagens div {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 15%;
+}
+
+.section3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 10%;
+}
+.section3 div {
+  width: 45%;
+}
+.section3 h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding-bottom: 5%;
+}
+.section3 h2 {
+  font-family: "Koh Santepheap", serif;
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+.section3 p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding-bottom: 5%;
+}
+.section3 button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  padding: 2% 5%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(44, 39, 39);
+}
+
+.section4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 15%;
+}
+.section4 div {
+  width: 45%;
+}
+.section4 div h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding-bottom: 5%;
+}
+.section4 div h2 {
+  font-family: "Koh Santepheap", serif;
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+.section4 div p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding-bottom: 5%;
+}
+.section4 div button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  padding: 2% 5%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(44, 39, 39);
+}
+
+.section5 div {
+  text-align: center;
+  margin-top: 5%;
+}
+.section5 div h3 {
+  font-family: "Inter", sans-serif;
+  padding-bottom: 1rem;
+  letter-spacing: 10px;
+}
+.section5 div h2 {
+  font-family: "Koh Santepheap", serif;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+.section5 div p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+.section6 {
+  margin-top: 5%;
+}
+.section6 .container-img {
+  display: flex;
+  padding: 0% 15%;
+  justify-content: space-between;
+}
+.section6 .container-img div {
+  padding: 2% 3%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.section6 .container-img h2 {
+  font-family: "Koh Santepheap", serif;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.section6 .container-img p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+footer {
+  background: rgb(64, 160, 58);
+  padding: 1% 15%;
+  margin-top: 5%;
+}
+footer div {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
